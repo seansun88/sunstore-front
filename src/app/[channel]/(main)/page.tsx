@@ -4,8 +4,7 @@ import { ProductList } from "@/ui/components/ProductList";
 
 export const metadata = {
 	title: "LOVEFURBABY Storefront",
-	description:
-		"lovefurbaby, Premium Pet Supplies",
+	description: "lovefurbaby, Premium Pet Supplies",
 };
 
 export default async function Page(props: { params: Promise<{ channel: string }> }) {
